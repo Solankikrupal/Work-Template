@@ -1,0 +1,396 @@
+body,html{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.site-header{
+  width:100%;
+  height:100%;
+  position:relative;
+  background-color: black;
+
+}
+.site-header-top{
+width:100%;
+  height:100%;
+  position: relative;
+
+}
+.site-header-top img{
+width:100%;
+  height:100%;
+  object-fit: cover;
+  opacity: 0.3;
+  background-attachment: fixed;
+}
+.site-content{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-content h1{
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color:white;
+  margin: 0px;
+  padding: 0px;
+  line-height: 80px;
+
+}
+.site-content p{
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:white;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-bar{
+  width: 100%;
+
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.nav-bar-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-bar-group ul{
+  list-style: none;
+  display: flex;
+
+}
+.links{
+  margin: 0px 18px 0px 18px;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+
+}
+.logo{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+
+
+
+/**************about****/
+.site-content{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.site-content-group{
+  width: 50%;
+  height: 80%;
+
+  position: relative;
+}
+.site-content-top{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.separate{
+  width: 5%;
+  margin: 0px;
+}
+.site-content-top h1{
+  font-size: 1.8rem;
+  margin: 0px;
+  color:black;
+  font-weight: bold;
+}
+.site-content-top h1 span{
+  color:#2579BF;
+}
+.site-content-top p{
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+  color: grey;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.site-content-bottom{
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+}
+.site-content-left{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+}
+.site-content-left img{
+  width: 60%;
+  height: 90%;
+}
+.site-content-right{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.site-content-about{
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+}
+.site-icon{
+  width: 20%;
+  height: 100%;
+
+
+}
+.site-icon img{
+  width: 50px;
+  height: 50px;
+  margin-left:17px;
+  margin-top: 5px;
+
+}
+.site-describe{
+  width: 80%;
+  height: 100%;
+}
+.site-describe h3{
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight:bold;
+  letter-spacing: 1px;
+  margin: 0px;
+  line-height: 29px;
+}
+.site-describe p{
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  line-height: 20px;
+  font-weight: lighter;
+  color: grey;
+  letter-spacing: 1px;
+}
+/********************portfolio*********/
+
+.portfolio{
+  width: 100%;
+  height: 100%;
+  margin-bottom:100px;
+
+}
+.portfolio-group{
+  width: 100%;
+  height: 100%;
+
+}
+.portfolio-top{
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-top h1{
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin: 0px;
+  color:black;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+.portfolio-top p{
+  font-size: 1rem;
+  text-align: center;
+  width: 35%;
+  color: grey;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-top ul{
+  display: flex;
+  list-style: none;
+}
+.portfolio-top ul li{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.portfolio-bottom{
+  width: 100%;
+  height: 70%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.portfolio-bottom div img{
+  width: 100%;
+  height: 100%;
+}
+.show{
+  display:grid;
+
+}
+.hide{
+  display: none;
+}
+/**********************team**************/
+
+.team{
+  width:100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.team-group{
+  width: 85%;
+  height: 90%;
+
+}
+.team-top{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team-top h1{
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin: 0px;
+  color:black;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+.team-top h1 span{
+  color:#2579BF;
+}
+.team-top p{
+  font-size: 1rem;
+  color:grey;
+  width: 50%;
+  text-align: center;
+}
+
+.team-bottom{
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card{
+  width: 30%;
+  height: 65%;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  position: relative;
+  box-shadow: 0px 1px grey;
+  border-color: transparent;
+}
+.pro-pic{
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: -90px;
+  left: 70px;
+  border-color: #F7F7F7;
+  border: 2px;
+}
+.pro-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border-color: #F7F7F7;
+  border: 2px;
+}
+.pro-info{
+  margin-top: 120px;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+
+}
+.pro-info h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 25px;
+
+}
+.pro-info h4{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  color: grey;
+}
+.pro-info p{
+  width: 90%;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 18px;
+  color: grey;
+}
